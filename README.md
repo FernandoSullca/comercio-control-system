@@ -1,53 +1,73 @@
-# 🚀 
+Sistema de gestión comercial con autenticación, analítica y despliegue en la nube.
 
-Proyecto originalmente desarrollado en el ámbito académico, posteriormente refactorizado y evolucionado hacia una solución con enfoque profesional y escalable.
+# 🚀 Comercio Control System
 
-> Formerly: "ComercioControl-TPIntegracion" (University Project)
+Sistema moderno de gestión de inventario y ventas con analítica, alertas de stock y arquitectura escalable.
 
----
-
-## 📌 Overview
-
-Comercio Control is a full-stack application designed to manage products, sales and stock in an efficient and scalable way.
-
-This project evolved from an academic system into a production-oriented platform with modern technologies and best practices.
+> Anteriormente: "ComercioControl-TPIntegracion" (Proyecto Universitario)
 
 ---
 
-## ✨ Features
+## 📌 Descripción General
+
+Comercio Control es una aplicación full-stack diseñada para gestionar productos, ventas y stock de manera eficiente y escalable.
+
+Este proyecto evolucionó desde un sistema académico hacia una plataforma orientada a producción, incorporando tecnologías modernas y buenas prácticas de desarrollo.
+
+---
+
+## 🔄 Evolución del Proyecto
+
+Este proyecto fue originalmente desarrollado como parte de una materia universitaria utilizando Java, Angular y MySQL.
+
+Posteriormente fue modernizado y evolucionado hacia una arquitectura profesional:
+
+- 🔁 Migración de base de datos: MySQL → PostgreSQL
+- ⚡ Actualización del backend a versiones modernas de Java + Spring Boot
+- 🎯 Modernización del frontend en Angular (actualización de versión y mejoras de UI)
+- ☁️ Adaptación para despliegue en la nube (Railway + Vercel)
+- 🔐 Implementación de autenticación basada en JWT y capas de seguridad
+
+Esta evolución refleja prácticas reales de mantenimiento y modernización de software.
+
+---
+
+## ✨ Funcionalidades
 
 ### 🧱 Core
-- Product management (CRUD)
-- Sales registration
-- Stock validation and updates
-- Sales history and filtering
+- Gestión de productos (CRUD)
+- Registro de ventas
+- Validación y actualización de stock
+- Historial de ventas con filtros
 
-### 📊 Advanced
-- Dashboard with analytics (sales, revenue, stock)
-- Low stock alerts
-- Export data (CSV / Excel)
-- Audit logs
+### 📊 Avanzadas
+- Dashboard con analíticas (ventas, ingresos, stock)
+- Alertas de bajo stock
+- Exportación de datos (CSV / Excel)
+- Registro de auditoría
 
-### 🔐 Security
-- JWT Authentication
-- Role-based access (Admin / Employee)
+### 🔐 Seguridad
+- Autenticación con JWT
+- Control de acceso por roles (Administrador / Empleado)
 
-### 🤖 (Planned)
-- Stock prediction system (ML)
-- Sales forecasting
-
----
-
-## 🏗️ Architecture
-
-Monorepo structure:
-ComercioControlSystem/
-├── backend/ # Spring Boot API
-├── frontend/ # React App
+### 🤖 (Planificado)
+- Sistema de predicción de stock
+- Forecast de ventas
 
 ---
 
-## 🛠️ Tech Stack
+## 🏗️ Arquitectura
+
+Estructura monorepo:
+
+'ComercioControlSystem/
+├── backend/ # API Spring Boot
+├── frontend/ # Aplicación React'
+
+
+---
+
+## 🛠️ Tecnologías
 
 ### Backend
 - Java + Spring Boot
@@ -56,22 +76,41 @@ ComercioControlSystem/
 - PostgreSQL
 
 ### Frontend
-- React
-- Axios
-- Chart libraries (Recharts / Chart.js)
+- Angular
+- TypeScript
+- RxJS
+- Librerías de gráficos (Recharts / Chart.js)
 
 ### DevOps
-- Docker (optional)
-- CI/CD (GitHub Actions - planned)
+- Docker (opcional)
+- CI/CD (GitHub Actions - planificado)
 
 ---
 
-## 🚀 Deployment
+## 🚀 Despliegue
 
-- Frontend → Vercel
-- Backend → Railway
-- Database → PostgreSQL (Railway)
+- Frontend → :contentReference[oaicite:0]{index=0}
+- Backend → :contentReference[oaicite:1]{index=1}
+- Base de datos → PostgreSQL (Railway)
 
 ---
+
+## 📈 Estado del Proyecto
+
+🚧 En desarrollo activo (Portfolio Edition v2.0)
+
+---
+
+## 👨‍💻 Autor
+
+**Fernando Sullca**  
+Desarrollador Full Stack
+
+🔗 GitHub: https://github.com/FernandoSullca  
+🔗 LinkedIn: https://linkedin.com/in/willian-fernando-sullca  
+
+📩 Abierto a oportunidades y colaboraciones
+---
+
 
 
