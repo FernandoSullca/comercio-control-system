@@ -22,8 +22,8 @@ Este proyecto fue originalmente desarrollado como parte de una materia universit
 
 Posteriormente fue modernizado y evolucionado hacia una arquitectura profesional:
 
-- 🔁 Migración de base de datos: MySQL → PostgreSQL
-- ⚡ Actualización del backend a versiones modernas de Java + Spring Boot
+- 🔁 Migración de base de datos: MySQL �?PostgreSQL
+- �?Actualización del backend a versiones modernas de Java + Spring Boot
 - 🎯 Modernización del frontend en Angular (actualización de versión y mejoras de UI)
 - ☁️ Adaptación para despliegue en la nube (Railway + Vercel)
 - 🔐 Implementación de autenticación basada en JWT y capas de seguridad
@@ -32,7 +32,7 @@ Esta evolución refleja prácticas reales de mantenimiento y modernización de s
 
 ---
 
-## ✨ Funcionalidades
+## �?Funcionalidades
 
 ### 🧱 Core
 - Gestión de productos (CRUD)
@@ -56,18 +56,18 @@ Esta evolución refleja prácticas reales de mantenimiento y modernización de s
 
 ---
 
-## 🏗️ Arquitectura
+## 🏗�?Arquitectura
 
 Estructura monorepo:
 
-'ComercioControlSystem/
-├── backend/ # API Spring Boot
-├── frontend/ # Aplicación React'
+'- ComercioControlSystem/
+- ├── backend/ # API Spring Boot
+- ├── frontend/ # Aplicación React'
 
 
 ---
 
-## 🛠️ Tecnologías
+## 🛠�?Tecnologías
 
 ### Backend
 - Java + Spring Boot
@@ -89,9 +89,9 @@ Estructura monorepo:
 
 ## 🚀 Despliegue
 
-- Frontend → :contentReference[oaicite:0]{index=0}
-- Backend → :contentReference[oaicite:1]{index=1}
-- Base de datos → PostgreSQL (Railway)
+- Frontend �?:contentReference[oaicite:0]{index=0}
+- Backend �?:contentReference[oaicite:1]{index=1}
+- Base de datos �?PostgreSQL (Railway)
 
 ---
 
@@ -101,7 +101,7 @@ Estructura monorepo:
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍�?Autor
 
 **Fernando Sullca**  
 Desarrollador Full Stack
