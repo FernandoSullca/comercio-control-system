@@ -1,1 +1,60 @@
-backend/src/main/resources/application.properties
+### Entorno y Secretos ###
+.env
+.env.*
+!.env.example
+*.pem
+*.keystore
+*.p12
+*secret.properties
+
+### Java / Spring Boot (Backend) ###
+backend/target/
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+### Node / Frontend (Angular / React) ###
+frontend/node_modules/
+frontend/dist/
+frontend/out/
+frontend/.angular/
+frontend/.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+### IDEs y Editores ###
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### Sistema Operativo ###
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
